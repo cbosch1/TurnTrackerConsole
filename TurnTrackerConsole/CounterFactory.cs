@@ -10,24 +10,26 @@ namespace TurnTrackerConsole
     {
         /* Creates Counter objects based on User-Input */
 
-        public static ICounter TurnCounter(int count, string name)
+        public static ICounter Counter(bool type, int count, string name)
         {
-            var turnCounter = new TurnCounter()
+            if (type)
             {
-                Count = count,
-                Name = name
-            };
-            return turnCounter;
-        }
-
-        public static ICounter TimeCounter(int count, string name)
-        {
-            var timeCounter = new TimeCounter()
+                var turnCounter = new TurnCounter()
+                {
+                    Count = count,
+                    Name = name
+                };
+                return turnCounter;
+            }
+            else
             {
-                Count = count,
-                Name = name
-            };
-            return timeCounter;
+                var timeCounter = new TimeCounter()
+                {
+                    Count = count,
+                    Name = name
+                };
+                return timeCounter;
+            }
         }
     }
 }

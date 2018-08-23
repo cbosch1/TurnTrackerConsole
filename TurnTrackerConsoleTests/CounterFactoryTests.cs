@@ -12,25 +12,19 @@ namespace TurnTrackerConsole.Tests
     public class CounterFactoryTests
     {
         [TestMethod()]
-        public void TurnCounterTest()
+        public void CounterTest()
         {
-            var turnCounter = new TurnCounter();
-            var counter = CounterFactory.TurnCounter(1, "A");
+            var turnCounter = CounterFactory.Counter(true, 1, "A");
 
-            Assert.IsInstanceOfType(counter, typeof(TurnCounter));
-            Assert.IsTrue(counter.Count == 1);
-            Assert.IsTrue(counter.Name == "A");
-        }
+            Assert.IsInstanceOfType(turnCounter, typeof(TurnCounter));
+            Assert.IsTrue(turnCounter.Count == 1);
+            Assert.IsTrue(turnCounter.Name == "A");
 
-        [TestMethod()]
-        public void TimeCounterTest()
-        {
-            var timeCounter = new TimeCounter();
-            var counter = CounterFactory.TimeCounter(1, "A");
+            var timeCounter = CounterFactory.Counter(false, 1, "A");
 
-            Assert.IsInstanceOfType(counter, typeof(TimeCounter));
-            Assert.IsTrue(counter.Count == 1);
-            Assert.IsTrue(counter.Name == "A");
+            Assert.IsInstanceOfType(timeCounter, typeof(TimeCounter));
+            Assert.IsTrue(timeCounter.Count == 1);
+            Assert.IsTrue(timeCounter.Name == "A");
         }
     }
 }

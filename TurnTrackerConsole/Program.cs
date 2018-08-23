@@ -77,18 +77,8 @@ namespace TurnTrackerConsole
                             {
                                 if (count > 0)
                                 {
-                                    switch (type)
-                                    {
-                                        case true:
-                                            currentCounter = CounterFactory.TurnCounter(count, name);
-                                            fail = false;
-                                            break;
-
-                                        default:
-                                            currentCounter = CounterFactory.TimeCounter(count, name);
-                                            fail = false;
-                                            break;
-                                    }
+                                    currentCounter = CounterFactory.Counter(type, count, name);
+                                    fail = false;
                                 }
                                 else
                                 {

@@ -1,6 +1,8 @@
 # TurnTrackerConsole
 A small console application for tracking turns in tabletop roleplaying games.
-Released under the Beer-Ware License
+Released under the Beer-Ware License.
+
+8/23/2018 -- Current plan is to eventually build a TurnTracker for Windows Forms and then as an App. This project is primarily for my own learning but any feedback from the community is greatly appreciated.
 
 /*
  * ----------------------------------------------------------------------------

@@ -1,0 +1,17 @@
+C:\Users\Conner\source\repos\TurnTrackerConsole\TurnTrackerConsole\bin\Debug\TurnTrackerConsole.exe.config
+C:\Users\Conner\source\repos\TurnTrackerConsole\TurnTrackerConsole\bin\Debug\TurnTrackerConsole.exe
+C:\Users\Conner\source\repos\TurnTrackerConsole\TurnTrackerConsole\bin\Debug\TurnTrackerConsole.pdb
+C:\Users\Conner\source\repos\TurnTrackerConsole\TurnTrackerConsole\obj\Debug\TurnTrackerConsole.csprojResolveAssemblyReference.cache
+C:\Users\Conner\source\repos\TurnTrackerConsole\TurnTrackerConsole\obj\Debug\TurnTrackerConsole.csproj.CoreCompileInputs.cache
+C:\Users\Conner\source\repos\TurnTrackerConsole\TurnTrackerConsole\obj\Debug\TurnTrackerConsole.exe
+C:\Users\Conner\source\repos\TurnTrackerConsole\TurnTrackerConsole\obj\Debug\TurnTrackerConsole.pdb
+C:\Users\Conner\source\repos\TurnTrackerConsole\TurnTrackerConsole\bin\Debug\EntityFramework.dll
+C:\Users\Conner\source\repos\TurnTrackerConsole\TurnTrackerConsole\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Conner\source\repos\TurnTrackerConsole\TurnTrackerConsole\bin\Debug\System.Data.SQLite.dll
+C:\Users\Conner\source\repos\TurnTrackerConsole\TurnTrackerConsole\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Conner\source\repos\TurnTrackerConsole\TurnTrackerConsole\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Conner\source\repos\TurnTrackerConsole\TurnTrackerConsole\bin\Debug\EntityFramework.xml
+C:\Users\Conner\source\repos\TurnTrackerConsole\TurnTrackerConsole\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Conner\source\repos\TurnTrackerConsole\TurnTrackerConsole\bin\Debug\System.Data.SQLite.xml
+C:\Users\Conner\source\repos\TurnTrackerConsole\TurnTrackerConsole\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\Conner\source\repos\TurnTrackerConsole\TurnTrackerConsole\obj\Debug\TurnTrackerConsole.csproj.CopyComplete
